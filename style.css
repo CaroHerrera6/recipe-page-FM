@@ -151,9 +151,9 @@ td b {
 }
 @media (min-width: 768px) {
   body {
-    max-width: 736px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 2rem;
+
     background-color: var(--hsl-stone100);
   }
 
@@ -161,18 +161,25 @@ td b {
   .info-container,
   .img-container {
     background-color: white;
-    padding: 2rem;
   }
   img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
     border-radius: 12px;
+  }
+  .img-container {
+    padding-top: 2rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
   }
 
   table {
     width: 100%;
   }
-  .img-container {
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
+  .main-container {
+    border-radius: 12px;
   }
   .info-container {
     border-bottom-left-radius: 12px;
