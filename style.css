@@ -162,12 +162,20 @@ td b {
   .img-container {
     background-color: white;
     padding: 2rem;
-    border-radius: 12px;
   }
   img {
     border-radius: 12px;
   }
+
   table {
     width: 100%;
+  }
+  .img-container {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  .info-container {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
 }
