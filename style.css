@@ -152,7 +152,7 @@ td b {
 @media (min-width: 768px) {
   body {
     max-width: 720px;
-    margin: 0 auto;
+    margin: 2rem auto;
 
     background-color: var(--hsl-stone100);
   }
